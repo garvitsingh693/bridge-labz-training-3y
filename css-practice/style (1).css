@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+
+.container  a{
+    text-decoration: none;
+    cursor:pointer;
+    /* border: 1px solid red; */
+    display: block;
+   
+}
+
+.container a:hover{
+    color: white;
+    background-color: gray;
+}
+
+
+
+
+.container ul{
+    list-style-type: none;
+    /* border: 1px solid black; */
+    padding: 1rem
+}
+
+.container ul li{
+    /* border: 1px solid orange; */
+   
+    background-color: lightblue;
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 1rem  ;
+}
+
+ul li:nth-child(even){
+    background-color: rgb(229, 130, 130);
+}
