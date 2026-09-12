@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Whole page */
+body {
+    font-family: Arial, sans-serif;
+    color: #172f52;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 8%;
+
+    background-color: white;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    color: #17649b;
+}
+
+
+.logo-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+
+    margin-left: auto;
+    margin-right: 50px;
+
+    gap: 35px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+
+    color: #555555;
+
+    font-size: 16px;
+}
+
+
+.nav-links a:first-child {
+    color: #17649b;
+}
+
+
+/* Login button */
+.login-button {
+    background-color: #245902;
+
+    color: white;
+
+    border: none;
+
+    padding: 13px 28px;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #eef7fc;
+
+    min-height: 570px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 70px 9%;
+
+    gap: 80px;
+}
+
+
+/* Left side */
+.hero-left {
+    width: 50%;
+}
+
+
+/* Small red heading */
+.small-heading {
+    color: #d9555e;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Main heading */
+h1 {
+    font-size: 58px;
+
+    line-height: 1.1;
+
+    color: #172f52;
+
+    margin-bottom: 25px;
+}
+
+
+h1 span {
+    color: #176aa3;
+}
+
+
+/* Description */
+.description {
+    color: #657789;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    width: 90%;
+
+    margin-bottom: 30px;
+}
+
+
+/* Buttons */
+.buttons {
+    display: flex;
+
+    gap: 16px;
+}
+
+
+/* Blue button */
+.track-button {
+    background-color: #176aa3;
+
+    color: white;
+
+    border: none;
+
+    padding: 16px 28px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* White button */
+.services-button {
+    background-color: transparent;
+
+    color: #176aa3;
+
+    border: 2px solid #7baac7;
+
+    padding: 14px 28px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* TRACKING BOX */
+
+.tracking-box {
+    background-color: white;
+
+    width: 420px;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Truck circle */
+.truck-icon {
+    background-color: #eaf6fc;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 28px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Tracking heading */
+.tracking-box h2 {
+    font-size: 27px;
+
+    color: #172f52;
+
+    margin-bottom: 12px;
+}
+
+
+/* Tracking description */
+.tracking-box p {
+    color: #777777;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+}
+
+
+/* Input box */
+.tracking-box input {
+    width: 100%;
+
+    height: 52px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 5px;
+
+    padding: 0 15px;
+
+    font-size: 15px;
+
+    margin-bottom: 14px;
+}
+
+
+/* Red tracking button */
+.track-package {
+    width: 100%;
+
+    height: 53px;
+
+    background-color: #ed3946;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.track-package span {
+    font-size: 22px;
+
+    margin-left: 10px;
+}
+
+
+/* HOVER EFFECTS */
+
+.login-button:hover,
+.track-button:hover {
+    background-color: #0f527f;
+}
+
+
+.services-button:hover {
+    background-color: #e5f2f9;
+}
+
+
+.track-package:hover {
+    background-color: #d92d39;
+}
