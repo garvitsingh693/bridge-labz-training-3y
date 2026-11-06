@@ -1,3 +1,0 @@
-/* Bootstrap's carousel JS is loaded on this page for slide controls and autoplay. */
-.destination-img { height: clamp(300px, 52vw, 560px); object-fit: cover; filter: brightness(.72); }
-.carousel-caption { bottom: 12%; }
