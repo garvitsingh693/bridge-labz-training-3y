@@ -1,0 +1,2 @@
+/* Bootstrap alerts replace the old Bootstrap 3 wells; this is a modern summary well. */
+.summary-well { border-left: 4px solid #0d6efd !important; }

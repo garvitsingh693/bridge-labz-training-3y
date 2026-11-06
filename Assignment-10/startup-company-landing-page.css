@@ -1,0 +1,3 @@
+/* Bootstrap's .container, .row and responsive .col classes handle the layout. */
+.hero { background: linear-gradient(120deg, #f4f8ff, #ffffff); }
+.hero img { min-height: 280px; object-fit: cover; }
