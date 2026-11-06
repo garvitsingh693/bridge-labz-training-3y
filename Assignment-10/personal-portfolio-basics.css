@@ -1,0 +1,4 @@
+/* Utility classes such as p-5, mt-4, mb-3 and text-center style the page. */
+.profile-photo { width: 150px; height: 150px; object-fit: cover; }
+.intro { max-width: 620px; }
+.contact-box { max-width: 560px; }

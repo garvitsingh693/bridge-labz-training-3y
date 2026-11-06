@@ -1,0 +1,8 @@
+/* Theme variables override Bootstrap defaults after the CDN stylesheet. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap');
+:root { --bs-primary: #a34f3d; --bs-primary-rgb: 163,79,61; --bs-font-sans-serif: 'DM Sans', sans-serif; }
+h1, h2, h3, .brand { font-family: 'Playfair Display', serif; color: #693629; }
+a { color: #8c4435; }
+.blog-hero { background: #f7eee8; }
+.card { border: 0; box-shadow: 0 .25rem 1rem rgba(50,30,20,.08); }
+.card-img-top { height: 230px; object-fit: cover; }

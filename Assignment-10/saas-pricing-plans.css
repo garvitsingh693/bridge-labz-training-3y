@@ -1,0 +1,4 @@
+/* col-md-4 places three cards in a row on desktop and stacks them on mobile. */
+.pricing-card { transition: transform .2s ease, box-shadow .2s ease; border: 0; }
+.pricing-card:hover { transform: translateY(-7px); box-shadow: 0 1rem 2rem rgba(0,0,0,.16) !important; }
+.featured-plan { border-radius: 1rem; }
